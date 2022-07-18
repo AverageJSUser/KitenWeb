@@ -53,11 +53,10 @@
    }
    .intro{
     color:red;
-     width:450px;
-     text-align:left;
-     text-justify:auto;
+     width:700px;
+     text-align:centre;
      letter-spacing:1px;
-     display:block;
+     display:flex;
      font-size:40px;
    }
    .second{
@@ -130,4 +129,11 @@
         align-items: center; 
         justify-content: center; 
       } 
+      #Widow{
+        font-size:40px
+      }
+      #butt{
+        background-color:red;
+        text-emphasis-color: white;    
+      }
 
