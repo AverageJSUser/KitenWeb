@@ -1,0 +1,9 @@
+.test{
+    display: inline;
+    width: 40%;
+    height: 40%;
+} 
+
+#butt{
+    border-radius: 20px
+}
