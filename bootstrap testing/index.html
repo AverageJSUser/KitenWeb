@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,19 +22,19 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#" onenter=chud onmouseleave=zhud>Link</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Dropdown
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a id="chud" class="dropdown-item" href="#">Action</a></li>
                   <li><a class="dropdown-item" href="#">Another action</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="button"><button onclick="document.getElementById('demo').innerHTML = Date()">The time is?</button></a></li>
                 </ul>
-              </li>
             </ul>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -42,17 +43,8 @@
           </div>
         </div>
       </nav>
-                    <div class="container-fluid">
-                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                              <div class="carousel-item active">
-                                <img src="nasa-yZygONrUBe8-unsplash.jpg" class="d-block w-100" alt="...">
-                              </div>
-                            </div>
-                            </div>
-                            </div>
-                            </div>
-    <h1>The secrets of space</h1>
+
+    <h1 id="title">The secrets of space</h1>
     <div class="accordion" id="accordion1">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
@@ -65,10 +57,11 @@
               <strong>Space is the boundless three-dimensional extent in which objects and events have relative position and direction. In classical physics, physical space is often conceived in three linear dimensions, although modern physicists usually consider it, with time, to be part of a boundless four-dimensional continuum known as spacetime. The concept of space is considered to be of fundamental importance to an understanding of the physical universe. However, disagreement continues between philosophers over whether it is itself an entity, a relationship between entities, or part of a conceptual framework.</strong>
             </div>
           </div>
+          </div>
         </div>
           <div class="container">
           <div class="row">
-            <div class="card" style="width: 18rem;">
+            <div class="card col-4" style="width: 20rem;">
                 <img src="th (1).webp" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Discoverys  <span class="badge bg-secondary">New</span> </h5>
@@ -77,26 +70,20 @@
                 </div>
               </div>
 
-
-              <div class="card offset-6" style="width: 18rem;">
+              <div class="card offset-6" style="width: 20rem;">
                 <img src="Cute-little-astronaut-waving-hand-on-transparent-background-PNG-removebg-preview.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Astronauts</h5>
-                  <p class="card-text">They are new discoverys in space everyday , but they are always different maybe they saw water on another planet or an asteroid crashed in another planet.</p>
+                  <p class="card-text">They as different maybe they saw water on another planet or an asteroid crashed in another planet.</p>
                   <a href="#" class="btn btn-primary">Learn more...</a>
                 </div>
               </div>
-            <div class="col-4"></div>
-            <div class="col-4 offset-8"></div>
-          </div>
-          </div>
-          </div>
 
-
+<br>
           <div class="container">
           <p>
             <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
-              Toggle width collapse
+             Even More Info
             </button>
           </p>
           <div style="min-height: 120px;">
@@ -106,6 +93,60 @@
               </div>
             </div>
           </div>
+          </div>
+          <div class="modal" tabindex="-1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Modal title</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion" id="accordion1">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  The beauty of space
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Space is not only mysterious and interesting it is, also really beatuful if it's taken with a good satelite like hubble</strong>
+                </div>
+              </div>
+              </div>
+            </div>
+
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="jeremy-perkins-uhjiu8FjnsQ-unsplash.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="jeremy-thomas-E0AHdsENmDg-unsplash.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="andy-holmes-rCbdp8VCYhQ-unsplash.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
           <form class="row g-3">
   <div class="col-md-4">
@@ -171,6 +212,8 @@
     <button class="btn btn-primary" type="submit">Submit form</button>
   </div>
 </form>
-          </div>
-</body>
+    
+    <div class="footer">
+      <p>   Home Link Team                            Emo&copy</p>
+    </div>
 </html>

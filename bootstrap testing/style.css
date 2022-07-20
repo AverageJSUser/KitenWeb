@@ -1,5 +1,21 @@
-.title{
-    font-style:'Airnt';
-    font-weight: 500;
-    font-size: 60px;
-}
+*{
+    margin:0;
+    padding:0;
+   }
+   @font-face { font-family: Bungee; src:     url('Bungee-Regular.ttf'); } 
+   @font-face { font-family: Bungee; font-weight: bold; src: url('Bungee-Regular.ttf');}
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: blue    ;
+        color: white;
+        text-align: center;
+      }
+      #title{
+        font-family: 'Bungee';
+        font-size:50px;
+        font-weight:500;
+        color:black;
+      }
