@@ -1,3 +1,14 @@
-#navbar{
-    background-color: green;
+#snav{
+    color:black;
+}
+#truck{ 
+    height:40rem;
+}
+#info{
+    margin-top:-15rem;
+}
+
+#info {
+    display: block;
+    z-index: 120;
 }
