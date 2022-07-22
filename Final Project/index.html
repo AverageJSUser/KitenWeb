@@ -1,114 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <nav class="navbar style=" background-color: #FFFFFF >
-        <div class=" container-fluid">
-        <a class="navbar-brand" href="#"><img src="images/logo.webp"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        </div>
-        </div>
-    </nav>
-    <hr>
-    <nav id="snav" class="navbar style=" background-color: #FFFFFF>
+    <!---link-->
+    <nav class="navbar background">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
+          <a class="navbar-brand" href="#">Navbar</a>
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+      </nav>
+      <hr>
+      
+      <!-- As a heading -->
+      <nav class="navbar navbar-expand-lg background">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Inventory.html">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action<
+          <a class="navbar-brand" href="#">Navbar</a>/a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
-        </div>
-    </nav>
-    <div class="container-fluid">
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img id="truck" src="images/kendall-henderson-Pj6TgpS_Vt4-unsplash.jpg" class="d-block w-100" alt="...">
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-          <div id="info" class="card text-bg-danger mb-3" style="max-width: 26rem;">
-            <img src="images/th.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Danger card title</h5>
-              <p class="card-text"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum veniam libero totam molestiae magni dolorum quasi quae soluta ab minus. 
-              </p>
-            </div>
+              </li>
+            </ul>
           </div>
-        <div id="infot"  class="card text-bg-danger mb-3" style="max-width: 26rem;">
+        </div>
+      </nav>
+
+      <!---CAROUSELL-->
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img id="caros" src="images/kendall-henderson-Pj6TgpS_Vt4-unsplash.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div> 
+
+      <!----CARDS---->
+      <div  class="container">
+        <div id="card1" class="card text-bg-danger mb-3 col-md" style="max-width: 26rem;">
           <img src="images/th.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Danger card title</h5>
             <p class="card-text"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum veniam libero totam molestiae magni dolorum quasi quae soluta ab minus. 
             </p>
-    </div>
-    </div>
-    <div id="infoth" class="container">
-        <div class="card text-bg-danger mb-3" style="max-width: 26rem;">
+            <a id="btn1" href="#" class="btn btn-primary">Buy now</a>
+          </div>
+        </div>
+            <div id="card2" class="card text-bg-danger mb-3 col-md" style="max-width: 26rem;">
+              <img src="images/th.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Danger card title</h5>
+                <p class="card-text"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum veniam libero totam molestiae magni dolorum quasi quae soluta ab minus. 
+                </p>
+                <a id="btn2" href="#" class="btn btn-primary">Buy now</a>
+              </div>
+            </div>
+        <div id="card3" class="card text-bg-danger mb-3 col-md"     style="max-width: 26rem;">
           <img src="images/th.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Danger card title</h5>
             <p class="card-text"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum veniam libero totam molestiae magni dolorum quasi quae soluta ab minus. 
             </p>
+            <a id="btn3" href="#" class="btn btn-primary">Buy now</a>
+          </div>
+        </div>
     </div>
-</div>
-</div>
-</div>
-</div>
+
+          <!---CAROUSELL HEADER--->
     <div id = "carousel-header-container">
         <h1 id = "carousel-header">Offering quick</h1>
-        <h2 id ="carousel-text">and efficient service to keep you on the road</h2>
+        <h2>and efficient service to keep you on the road</h2>
     </div>
-    
 
-    
+    <!--Firm Header-->
+    <div class="container">
+        <h1 id="head2">Welcome to Wrecker Sales Inc.</h1>
+        <p id="redt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, dolorem?</p>
+        <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla voluptas ipsam commodi quas, cum, tenetur quisquam necessitatibus temporibus doloremque animi corporis aliquid placeat ipsum maiores aliquam error atque recusandae sequi magni praesentium? Fugiat reprehenderit impedit omnis aut ipsa, molestias quia?</p>
+    </div>
+
+    <!--Items-->
+        <div id="invbg" class="container-fluid bg-light" style="padding-top:2rem">
+            <h1 id="inv">Featured Inventory</h1>
+            <div class="container">
+                <div class="row">
+                <div id="trucks" class="card col-md  bg-light" style="width: 18rem;">
+                    <img src="images/towtruck.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Ford Tow Truck</h5>
+                      <p class="card-text">An old retro recreation of an ford tow truck that tows very well</p>
+                      <a id="buyinf" href="#" class="btn btn-primary">More info...</a>
+                    </div>
+                  </div>
+                  <div id="trucks1" class="card col-md bg-light" style="width: 18rem;">
+                    <img src="images/towtruck.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Ford Tow Truck</h5>
+                      <p class="card-text">An old retro recreation of an ford tow truck that tows very well</p>
+                      <a id="buyinf1" href="#" class="btn btn-primary">More info...</a>
+                    </div>
+                  </div>
+                  <div id="trucks2" class="card col-md bg-light" style="width: 18rem;">
+                    <img src="images/towtruck.webp" class="card-img-top" alt="...">
+                    <div class="card-body col-md">
+                      <h5 class="card-title">Ford Tow Truck</h5>
+                      <p class="card-text">An old retro recreation of an ford tow truck that tows very well</p>
+                      <a id="buyinf2" href="#" class="btn btn-primary">More info...</a>
+                    </div>
+                  </div>
+                  <div id="trucks3" class="card col-md bg-light" style="width: 18rem;">
+                    <img src="images/towtruck.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Ford Tow Truck</h5>
+                      <p class="card-text">An old retro recreation of a ford tow truck that tows very well</p>
+                      <a id="buyinf3" href="#" class="btn btn-primary">More info...</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid col-md bg-dark">
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2953.6409683889656!2d27.772476012719725!3d42.243482750028555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a6d2af81fb5a77%3A0xa5ce77ea1e2f0986!2sZangador!5e0!3m2!1sen!2sbg!4v1658486750244!5m2!1sen!2sbg" width="1500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
 </body>
-
 </html>
