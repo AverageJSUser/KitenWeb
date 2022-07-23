@@ -3,7 +3,7 @@
 
 #carousel-header{
     position: absolute;
-    top: 16rem;
+    top: 20rem;
     margin-left: 50rem;
     font-family:Truck;
     color:white;
@@ -146,4 +146,8 @@ body{
 }
 #foot1u{
     color:grey;
+}
+#foot2{
+    color:white;
+    font-size:25px;
 }
