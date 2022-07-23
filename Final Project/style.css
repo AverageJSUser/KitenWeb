@@ -4,10 +4,11 @@
 #carousel-header{
     position: absolute;
     top: 20rem;
-    margin-left: 50rem;
+    margin-left: 42rem;
     font-family:Truck;
     color:white;
-    font-size:60px;
+    font-size:100px;
+    text-shadow:5px 5px 5px black;
 }
 #carousel-text{
     color:white;

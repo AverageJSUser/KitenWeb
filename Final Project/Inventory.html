@@ -35,39 +35,6 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Inventory</a>
               </li>
-              <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
-                Toggle static offcanvas
-              </button>
-              
-              <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="staticBackdropLabel">Offcanvas</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                  <div>
-                    <h1>Brand</h1>
-                    <input type="checkbox" id="filter1" name="Mercedes" value="Mercedes">
-                    <label for="filter1">Mercedes</label>
-                    <br>
-                    <input type="checkbox" id="filter2" name="Mercedes" value="Mercedes">
-                    <label for="filter3">Scania</label>
-                    <br>
-                    <input type="checkbox" id="filter3" name="Mercedes" value="Mercedes">
-                    <label for="filter3">Volvo</label>
-                    <br>
-                    <h1>Engine</h1>
-                    <input type="checkbox" id="filter4" name="Mercedes" value="Mercedes">
-                    <label for="filter4">W8</label>
-                    <br>
-                    <input type="checkbox" id="filter5" name="Mercedes" value="Mercedes">
-                    <label for="filter6">W10</label>
-                    <br>
-                    <input type="checkbox" id="filter6" name="Mercedes" value="Mercedes">
-                    <label for="filter1">W12</label>
-                  </div>
-                </div>
-              </div>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Dropdown
@@ -85,6 +52,39 @@
         </div>
       </nav>
       <hr>  
+      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+        Toggle filters
+      </button>
+      
+      <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+        <div class="offcanvas-header">
+          <h1 class="offcanvas-title" id="staticBackdropLabel">Filters</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            <h2>Brand</h2>
+            <input type="checkbox" id="filter1" name="Mercedes" value="Mercedes">
+            <label for="filter1">Mercedes</label>
+            <br>
+            <input type="checkbox" id="filter2" name="Mercedes" value="Mercedes">
+            <label for="filter3">Scania</label>
+            <br>
+            <input type="checkbox" id="filter3" name="Mercedes" value="Mercedes">
+            <label for="filter3">Volvo</label>
+            <br>
+            <h2>Engine</h2>
+            <input type="checkbox" id="filter4" name="Mercedes" value="Mercedes">
+            <label for="filter4">W8</label>
+            <br>
+            <input type="checkbox" id="filter5" name="Mercedes" value="Mercedes">
+            <label for="filter6">W10</label>
+            <br>
+            <input type="checkbox" id="filter6" name="Mercedes" value="Mercedes">
+            <label for="filter1">W12</label>
+          </div>
+        </div>
+      </div>
 
       <!--CAROUSEL-->
       <div class="container-fluid">
