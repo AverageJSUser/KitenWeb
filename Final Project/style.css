@@ -1,11 +1,18 @@
 @font-face { font-family: Truck; src: url('Truck-Yz4o.ttf'); }
+@font-face { font-family: Oswald; src: url('Oswald-VariableFont_wght.ttf'); }
 
-#carousel-header-container{
+#carousel-header{
     position: absolute;
     top: 16rem;
-    margin-left: 41rem;
+    margin-left: 50rem;
     font-family:Truck;
     color:white;
+    font-size:60px;
+}
+#carousel-text{
+    color:white;
+    top:40rem;
+    margin-left:41rem;
 }
 
 body{
@@ -18,14 +25,20 @@ body{
     margin-top:-16.4rem;
     display:block;
     z-index: 120;
+    border-width:0;
+    box-shadow:5px 5px 5px black;
 }
 #card2{
     margin-left:27rem;
     margin-top:-29.3rem;
+    border-width:0;
+    box-shadow:5px 5px 5px black;
 }
 #card3{
     margin-left:54rem;
     margin-top:-29.2rem;
+    border-width:0;
+    box-shadow:5px 5px 5px black;
 }
 #btn1{
     background-color:black;
@@ -62,6 +75,7 @@ body{
 }
 #trucks{
     border-width: 0;
+    margin-bottom:5rem;
 }
 #trucks1{
     border-width: 0;
@@ -95,13 +109,34 @@ body{
 }
 #buyinf{
     background-color:rgb(164,87,64);
+    border-width: 0;
 }
 #buyinf1{
     background-color:rgb(164,87,64);
+    border-width: 0;
 }
 #buyinf2{
     background-color:rgb(164,87,64);
+    border-width: 0;
 }
 #buyinf3{
     background-color:rgb(164,87,64);
+    border-width: 0;
+}
+#carh{
+    font-family: Oswald, serif;
+    font-weight:400;
+    font-size:70px; 
+}
+#search{
+    border-radius: 20px;
+    width:90rem;
+}
+#wreck{
+    font-family:Truck;
+    font-size:80px
+}
+#overlay{
+    font-family:Truck;
+    font-size:30px;
 }

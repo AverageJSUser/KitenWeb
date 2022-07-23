@@ -13,14 +13,14 @@
       <!---link-->
       <nav class="navbar background">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Navbar</a>
+          <a id="wreck" class="navbar-brand" href="index.html">Wrecker</a>
         <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <input id="search" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+          </form>   
       </nav>
       <hr>
-      
+       
       <!-- As a heading -->
       <nav class="navbar navbar-expand-lg background">
         <div class="container-fluid">
@@ -33,7 +33,7 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Inventory</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -51,11 +51,14 @@
           </div>
         </div>
       </nav>
+      <hr>  
 
       <!--CAROUSEL-->
+      <div class="container-fluid">
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
+            <div id="shadow">
             <img id="vect" src="images/19962583_6174260.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
@@ -64,6 +67,7 @@
           <div class="carousel-item">
             <img id="vect2" src="images/19962583_6174260.jpg" class="d-block w-100" alt="...">
           </div>
+        </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -74,13 +78,19 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+      <!--CAROUSEL HEAD-->
+      <h1 id="carh">The most advanced technologies in the World</h1>
+      </div>
 
       <!--SHOP ITEMS-->
       <div id="tshop" class="container">
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
-          <div class="card h-100">
+          <div class="card text-bg-danger mb-3 col-md">
             <img src="images/19962583_6174260.jpg" class="card-img-top" alt="...">
+            <div class="card-img-overlay">
+                <p id="overlay" class="card-text">148000$</p>
+              </div>
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -89,8 +99,11 @@
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
+          <div class="card text-bg-danger mb-3 col-md">
             <img src="images/19962583_6174260.jpg" class="card-img-top" alt="...">
+            <div class="card-img-overlay">
+                <p id="overlay" class="card-text">148000$</p>
+              </div>
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a short card.</p>
@@ -99,8 +112,11 @@
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
+          <div class="card text-bg-danger mb-3 col-md">
             <img src="images/19962583_6174260.jpg" class="card-img-top" alt="...">
+            <div class="card-img-overlay">
+                <p id="overlay" class="card-text">148000$</p>
+              </div>
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
@@ -109,8 +125,11 @@
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
+          <div class="card text-bg-danger mb-3 col-md">
             <img src="images/19962583_6174260.jpg" class="card-img-top" alt="...">
+            <div class="card-img-overlay">
+                <p id="overlay" class="card-text">148000$</p>
+              </div>
             <div class="card-body">
               <h5 class="card-title">Truck</h5>
               <p class="card-text">Buy truck</p>
@@ -118,7 +137,89 @@
             </div>
           </div>
         </div>
+        <div class="col">
+            <div class="card text-bg-danger mb-3 col-md">
+              <img src="images/19962583_6174260.jpg" class="card-img-top" alt="...">
+              <div class="card-img-overlay">
+                <p id="overlay" class="card-text">148000$</p>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Truck</h5>
+                <p class="card-text">Buy truck</p>
+                <a id="btn1" href="#" class="btn btn-primary">Buy now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-bg-danger mb-3 col-md">
+              <img src="images/19962583_6174260.jpg" class="card-img-top" alt="...">
+              <div class="card-img-overlay">
+                <p id="overlay" class="card-text">148000$</p>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Truck</h5>
+                <p class="card-text">Buy truck</p>
+                <a id="btn1" href="#" class="btn btn-primary">Buy now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-bg-danger mb-3 col-md">
+              <img src="images/19962583_6174260.jpg" class="card-img-top" alt="...">
+              <div class="card-img-overlay">
+                <p id="overlay" class="card-text">148000$</p>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Truck</h5>
+                <p class="card-text">Buy truck</p>
+                <a id="btn1" href="#" class="btn btn-primary">Buy now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-bg-danger mb-3 col-md">
+              <img src="images/19962583_6174260.jpg" class="card-img-top" alt="...">
+              <div class="card-img-overlay">
+                <p id="overlay" class="card-text">148000$</p>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Truck</h5>
+                <p class="card-text">Buy truck</p>
+                <a id="btn1" href="#" class="btn btn-primary">Buy now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-bg-danger mb-3 col-md">
+              <img src="images/19962583_6174260.jpg" class="card-img-top" alt="...">
+              <div class="card-img-overlay">
+                <p id="overlay" class="card-text">148000$</p>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Truck</h5>
+                <p class="card-text">Buy truck</p>
+                <a id="btn1" href="#" class="btn btn-primary">Buy now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-bg-danger mb-3 col-md">
+              <img src="images/19962583_6174260.jpg" class="card-img-top" alt="...">
+              <div class="card-img-overlay">
+                <p id="overlay" class="card-text">148000$</p>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Truck</h5>
+                <p class="card-text">Buy truck</p>
+                <a id="btn1" href="#" class="btn btn-primary">Buy now</a>
+              </div>
+            </div>
+          </div>
       </div>
       </div>
+      <div class="container-fluid col-md bg-dark">
+        <br>
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2953.6409683889656!2d27.772476012719725!3d42.243482750028555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a6d2af81fb5a77%3A0xa5ce77ea1e2f0986!2sZangador!5e0!3m2!1sen!2sbg!4v1658486750244!5m2!1sen!2sbg" width="1500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 </body>
 </html>
